@@ -21,6 +21,7 @@ object martin {
 	method hacerDeporte(deporte,tiempo){
 		energia = energia - deporte.energiaConsumida(tiempo)
 		actividadesFisicas +=1
+		tieneHambre = true
 	}
 	
 	
