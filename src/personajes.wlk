@@ -2,6 +2,8 @@ import frutas.*
 import juegos.*
 
 
+
+
 object martin {
 	var energia = 100
 	var actividadesFisicas = 0
@@ -24,7 +26,7 @@ object martin {
 		tieneHambre = true
 	}
 	
-	
+	method nuevoDia(){self.energia() + 0.5}
 }
 	
 	
